@@ -24,7 +24,7 @@ function Tables() {
   const [editId, setEditId] = useState<number | null>(null);
 
   const handleSubmit = () => {
-    if (!form.name.trim() || !form.age.trim()) return;
+    if (!form.name.trim() && !form.age.trim()) return;
 
     if (mode === "edit" && editId !== null) {
       const updated = data.map((item, index) =>

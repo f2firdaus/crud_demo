@@ -23,6 +23,7 @@ const EditForm: React.FC<EditFormProps> = ({
   onCancel,
   mode,
 }) => {
+    
   const handleChange = (field: keyof TableRow, value: string) => {
     setForm({ ...form, [field]: value });
   };

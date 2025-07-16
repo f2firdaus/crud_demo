@@ -1,0 +1,26 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.select{
+  padding: 6px;
+  border-radius: 10px;
+  background-color: #0B5ED7;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+.select option{
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  border-radius: 10px;
+}
+.container1{
+  display: flex;
+  gap: 10px;
+ 
+  justify-content: center;
+}

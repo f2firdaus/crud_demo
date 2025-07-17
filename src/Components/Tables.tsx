@@ -42,13 +42,14 @@ function Tables() {
     setForm({ name: "", age: "", subject: "", status: "" });
     setEditId(null);
     setMode(null);
+    
   };
 
   const handleDelete = (idx: number) => {
     if (window.confirm("Are you sure you want to delete this row?")) {
       const filtered = data.filter((_, index) => index !== idx);
       setData(filtered);
-      
+
     }
   };
 

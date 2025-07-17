@@ -48,6 +48,7 @@ function Tables() {
     if (window.confirm("Are you sure you want to delete this row?")) {
       const filtered = data.filter((_, index) => index !== idx);
       setData(filtered);
+      
     }
   };
 

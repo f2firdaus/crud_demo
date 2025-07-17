@@ -54,6 +54,7 @@ function Tables() {
   const handleEditClick = (index: number) => {
     setForm(data[index]);
     setEditId(index);
+    
     setMode("edit");
   };
 
